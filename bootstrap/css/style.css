@@ -1,0 +1,443 @@
+*{
+    margin : 0 ;
+    padding : 0;
+    box-sizing: none;
+    scroll-behavior: smooth;
+
+}
+
+
+header{
+   
+    opacity: 0.800;
+    width: 100%;
+     height: 125px; 
+    background-color: rgb(219, 190, 174);
+    align-items: center;
+    padding-top: 40px;
+    
+}
+.flex{
+    display: flex;
+    justify-content: space-around;
+}
+.subflex{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 15px;
+    font-size: 17px;
+    line-height: 28px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: "RobotoSlab"; 
+    text-align: right;
+}
+h6{
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 700;
+    font-family: "RobotoSlab";
+    text-align: right;
+}
+ul{
+    list-style-type: none;
+   
+}
+a{
+    text-decoration: none;
+}
+.img{
+    width: 300px;
+    height: 100px;
+}
+.color{
+    color: #b32317;
+
+}
+.coffee {
+   
+    height: 675px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+     background-image: url(../images/Layer\ 29.png);
+     background-repeat: no-repeat;
+    background-size: cover;
+     align-items: center;
+     font-family: Oswald-Bold;
+     
+}
+.text-coffee{
+    font-size: 50px;
+    line-height: 85px;
+    color: #000000;
+    font-weight: 400;
+    font-family: "Oswald-Bold";
+}
+.Learn-More{
+    width: 150px;
+    height: 40px;
+    background-color: #b32317;
+    outline: 2px solid rgb(17, 15, 15);
+    outline-offset: 8px;
+    border: transparent;
+}
+.White{
+    color: white;
+}
+.Heading{
+    margin-left: 400px;
+    font-size: 20px;
+    line-height: 28px;
+    color: #b32317;
+    font-weight: 700;
+    font-family: "Roboto Slab";
+  
+}
+.Discription{
+   margin-left: 400px;
+   margin-top: 15px;
+   font-size: 40px;
+   line-height: 20px;
+   color: black;
+   font-weight: 500;
+  font-family: "Roboto Slab";
+}
+.Sub-Dis{
+    margin-left:400px ;
+    margin-top: 30px;
+    font-family: "Roboto Slab";
+}
+.Our-Market{
+    margin-top: 20px;
+    width: 150px;
+    height: 40px;
+    background-color: #b32317;
+    outline: 2px solid rgb(17, 15, 15);
+    outline-offset: 8px;
+    border: transparent;
+    
+}
+.WHITE{
+    color: white;
+}
+.IMAGES{
+    display: flex;
+  margin-top: -650px;
+  margin-left: 1000px;
+}
+     td{
+        padding: 15px;
+    }
+.Heading{
+    margin-top: 50px;
+}
+.Btn-Title{
+    display: flex;
+    margin-left: 300px;
+    margin-top: 150px;
+   
+}
+.Third-Page{
+    background-color: rgb(216, 210, 166);
+ 
+}
+.Btn-Yellow{
+    width: 270px;
+    height: 158px;
+    background-color: #ffc124;
+    font-size: 40px;
+    line-height: 45px;
+    color: #ffffff;
+    font-weight: 700;
+   font-family: "Oswald";
+   text-align: center;
+   margin-left: 20px;
+   border: transparent;
+   border-inline-color: white;
+   outline: 1px solid white;
+  outline-offset: -15px
+}
+.Btn-Brown{
+    width: 270px;
+    height: 158px;
+    background-color:#b66612;
+    font-size: 40px;
+   line-height: 45px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Oswald";
+  text-align: center;
+  margin-left: 20px;
+  border: transparent;
+  outline: 1px solid white;
+  outline-offset: -15px
+}
+.Btn-Red{
+    width: 270px;
+    height: 158px;
+    background-color:#b32317;
+    font-size: 40px;
+   line-height: 45px;
+   color: #ffffff;
+  font-weight: 700;
+   font-family: "Oswald";
+   text-align: center;
+   margin-left: 20px;
+   border: transparent;
+   outline: 1px solid white;
+   outline-offset: -15px
+}
+.Btn-Green{
+    width: 270px;
+    height: 158px;
+    background-color: rgb(3, 104, 3);
+    font-size: 40px;
+   line-height: 45px;
+   color: #ffffff;
+   font-weight: 700;
+   font-family: "Oswald";
+   text-align: center;
+   margin-left: 20px;
+   border: transparent;
+   outline: 1px solid white;
+   outline-offset: -15px
+}
+.B1{
+    font-size: 18px;
+   line-height: 28px;
+   color: #ffffff;
+   font-weight: 700;
+   font-family: "Roboto Slab";
+   text-align: center;
+}
+.Main-Title{
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.Main-Title{
+    margin-left: 950px;
+    font-size: 20px;
+    line-height: 28px;
+    color: #b32317;
+    font-weight: 700;
+    font-family: "Roboto Slab";
+
+}
+.Sub-Title{
+    margin-left: 960px;
+    margin-top: 15px;
+    font-size: 40px;
+    line-height: 20px;
+    color: black;
+    font-weight: 500;
+    font-family: "Roboto Slab";
+
+}
+.Ret{
+    color: #b32317;
+   
+    
+}
+.Work{
+    color: #b32317;
+    text-align: end;
+    
+}
+.Text1{
+    display: flex;
+    flex-direction: row;
+    margin-left: 500px;
+}
+.Text2{
+    display: flex;
+    flex-direction: row;
+    margin-left: 400px;
+}
+.retail{
+    margin-top: 40px;
+    margin-left: -100px;
+}
+.img1{
+    max-height: 80px;
+    margin-left: 20px;
+}
+.workplace{
+    margin-top: 40px;
+    margin-left: -155px;
+}
+.img2{
+    max-height: 80px;
+    margin-left: 20px;
+}
+.cup{
+    
+    display: flex;
+    margin-top: -400px;
+    margin-left: 900px;
+}
+.Text3{
+    display: flex;
+    margin-top: -400px;
+    margin-left: 1400px;
+}
+.Text4{
+    display: flex;
+    
+    margin-left: 1400px;
+}
+.Hos{
+    color: #b32317;
+}
+.Fund{
+    color: #b32317;
+}
+.Hospitality{
+    margin-top:40px ;
+    margin-left:-200px ;
+}
+.Fundraising{
+    margin-top: 40px;
+    margin-left: -200px;
+}
+.Fifth-Page{
+    
+    height: 301px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+     background-image: url(../images/Layer\ 35.png);
+     background-repeat: no-repeat;
+    background-size: cover;
+     align-items: center;
+     font-family: Oswald-Bold;
+}
+.Txt-Image{
+    font-size: 36px;
+color: #ffffff;
+font-weight: 700;
+font-family: "Oswald";
+text-align: center;
+}
+.Blend{
+    margin-left: 400px;
+    font-size: 22px;
+    line-height: 20px;
+    color: #b32317;
+    font-weight: 400;
+    font-family: "Roboto Slab";
+}
+.Our-coffee{
+    color: black;
+    margin-left:400px;
+    font-size: 50px;
+    font-family: "Roboto Slab";
+}
+.split{
+    margin-left:400px;
+}
+.Light{
+    color: #b32317;
+    margin-left: 400px;
+}
+.Light-text{
+margin-left: 400px;
+}
+.Medium-text{
+margin-left: 400px;
+}
+.Dark-text{
+margin-left: 400px;
+}
+.btn-DB{
+width: 150px;
+height: 40px;
+background-color: rgb(241, 42, 42);
+outline: 2px solid rgb(17, 15, 15);
+outline-offset: 10px;
+border: transparent;
+margin-left: 415px;
+}
+.Seventh-Page{
+    
+    height: 301px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+     background-image: url(../images/Layer\ 36.png);
+     background-repeat: no-repeat;
+    background-size: cover;
+     align-items: center;
+     font-family: Oswald-Bold;
+}
+.Coffee-Image{
+    font-size: 36px;
+color: #ffffff;
+font-weight: 700;
+font-family: "Oswald";
+text-align: center;
+}
+.logo{
+    margin-left: 591px;
+}
+.Eighth-page{
+    display: flex;
+    background-color: rgb(235, 222, 224);
+}
+  .AP{ 
+    font-size: 22px;
+    line-height: 20px;
+    color: #b32317;
+    font-weight: 800;
+    font-family: "Roboto Slab";
+    margin: right;
+    margin-left: 50px;
+    
+}
+.address{
+   margin-left: 170px;
+   margin-top: -20px;
+}
+.E{ 
+    font-size: 22px;
+    line-height: 20px;
+    color: #b32317;
+    font-weight: 800;
+    font-family: "Roboto Slab";
+    margin: right;
+    margin-left: 270px;
+    margin-top: -20px;
+    
+}
+.mail{
+    margin-left: 350px;
+    margin-top: -20px;
+}
+.phone{
+    margin-left: 130px;
+   margin-top: -18px;
+}
+.Info{
+    margin-top: 50px;
+}
+.footer{
+    background-color: red;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.HE{
+     margin-left: 300px;
+     color: white;
+     font-size: 20px;
+}
+.Privacy{
+    margin-left: 800px;
+    margin-top: -40px;
+    font-size: large;
+}
+.Fourth-Page{
+    margin-left: -100px;
+}
+.Work{
+    margin-left: 100px;
+}
